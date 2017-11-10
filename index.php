@@ -11,8 +11,11 @@
 
 <!-- CSS
 ================================================== -->
+
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/colors/main.css" id="colors">
+<link rel="stylesheet" href="css/me.css">
+
 
 </head>
 
@@ -246,8 +249,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>Find Nearby Attractions</h2>
-					<h4>Expolore top-rated attractions, activities and more</h4>
+					<h2></h2>
+					<h2>It's time to</h2>
+					<a href="" class="typewrite run" data-period="2000" data-type='[ "explore", "discover", "relax", "live" ]'>
+    				<span class="wrap" style="color: red;"></span>
+  </a>
 
 					<div class="main-search-input">
 
@@ -291,208 +297,6 @@
 
 <!-- Content
 ================================================== -->
-<div class="container">
-	<div class="row">
-
-		<div class="col-md-12">
-			<h3 class="headline centered margin-top-75">
-				Browse Categories
-			</h3>
-		</div>
-
-	</div>
-</div>
-
-
-<!-- Category Boxes -->
-<div class="container">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="categories-boxes-container margin-top-5 margin-bottom-30">
-				
-				<!-- Box -->
-				<a href="listings-list-with-sidebar.html" class="category-small-box">
-					<i class="im im-icon-Hamburger"></i>
-					<h4>Eat & Drink</h4>
-				</a>
-
-				<!-- Box -->
-				<a href="listings-list-with-sidebar.html" class="category-small-box">
-					<i class="im  im-icon-Sleeping"></i>
-					<h4>Hotels</h4>
-				</a>
-
-				<!-- Box -->
-				<a href="listings-list-with-sidebar.html" class="category-small-box">
-					<i class="im im-icon-Shopping-Bag"></i>
-					<h4>Shops</h4>
-				</a>
-
-				<!-- Box -->
-				<a href="listings-list-with-sidebar.html" class="category-small-box">
-					<i class="im im-icon-Cocktail"></i>
-					<h4>Nightlife</h4>
-				</a>
-
-				<!-- Box -->
-				<a href="listings-list-with-sidebar.html" class="category-small-box">
-					<i class="im im-icon-Electric-Guitar"></i>
-					<h4>Events</h4>
-				</a>
-
-				<!-- Box -->
-				<a href="listings-list-with-sidebar.html" class="category-small-box">
-					<i class="im im-icon-Dumbbell"></i>
-					<h4>Fitness</h4>
-				</a>
-
-			</div>
-		</div>
-	</div>
-</div>
-<!-- Category Boxes / End -->
-
-
-<!-- Fullwidth Section -->
-<section class="fullwidth margin-top-65 padding-top-75 padding-bottom-70" data-background-color="#f8f8f8">
-
-	<div class="container">
-		<div class="row">
-
-			<div class="col-md-12">
-				<h3 class="headline centered margin-bottom-45">
-					Most Visited Places
-					<span>Discover top-rated local businesses</span>
-				</h3>
-			</div>
-		</div>
-	</div>
-
-	<!-- Carousel / Start -->
-	<div class="simple-fw-slick-carousel dots-nav">
-
-		<!-- Listing Item -->
-		<div class="fw-carousel-item">
-			<a href="listings-single-page.html" class="listing-item-container compact">
-				<div class="listing-item">
-					<img src="images/listing-item-01.jpg" alt="">
-
-					<div class="listing-badge now-open">Now Open</div>
-
-					<div class="listing-item-content">
-						<div class="numerical-rating" data-rating="3.5"></div>
-						<h3>Tom's Restaurant</h3>
-						<span>964 School Street, New York</span>
-					</div>
-					<span class="like-icon"></span>
-				</div>
-			</a>
-		</div>
-		<!-- Listing Item / End -->
-
-		<!-- Listing Item -->
-		<div class="fw-carousel-item">
-			<a href="listings-single-page.html" class="listing-item-container compact">
-				<div class="listing-item">
-					<img src="images/listing-item-02.jpg" alt="">
-					<div class="listing-item-details">
-						<ul>
-							<li>Friday, August 10</li>
-						</ul>
-					</div>
-					<div class="listing-item-content">
-						<div class="numerical-rating" data-rating="5.0"></div>
-						<h3>Sticky Band</h3>
-						<span>Bishop Avenue, New York</span>
-					</div>
-					<span class="like-icon"></span>
-				</div>
-			</a>
-		</div>
-		<!-- Listing Item / End -->		
-
-		<!-- Listing Item -->
-		<div class="fw-carousel-item">
-			<a href="listings-single-page.html" class="listing-item-container compact">
-				<div class="listing-item">
-					<img src="images/listing-item-03.jpg" alt="">
-					<div class="listing-item-details">
-						<ul>
-							<li>Starting from $59 per night</li>
-						</ul>
-					</div>
-					<div class="listing-item-content">
-						<div class="numerical-rating" data-rating="2.0"></div>
-						<h3>Hotel Govendor</h3>
-						<span>778 Country Street, New York</span>
-					</div>
-					<span class="like-icon"></span>
-				</div>
-
-			</a>
-		</div>
-		<!-- Listing Item / End -->
-
-		<!-- Listing Item -->
-		<div class="fw-carousel-item">
-			<a href="listings-single-page.html" class="listing-item-container compact">
-				<div class="listing-item">
-					<img src="images/listing-item-04.jpg" alt="">
-
-					<div class="listing-badge now-open">Now Open</div>
-
-					<div class="listing-item-content">
-						<div class="numerical-rating" data-rating="5.0"></div>
-						<h3>Burger House</h3>
-						<span>2726 Shinn Street, New York</span>
-					</div>
-					<span class="like-icon"></span>
-				</div>
-			</a>
-		</div>
-		<!-- Listing Item / End -->
-
-		<!-- Listing Item -->
-		<div class="fw-carousel-item">
-			<a href="listings-single-page.html" class="listing-item-container compact">
-				<div class="listing-item">
-					<img src="images/listing-item-05.jpg" alt="">
-					<div class="listing-item-content">
-						<div class="numerical-rating" data-rating="3.5"></div>
-						<h3>Airport</h3>
-						<span>1512 Duncan Avenue, New York</span>
-					</div>
-					<span class="like-icon"></span>
-				</div>
-			</a>
-		</div>
-		<!-- Listing Item / End -->
-
-		<!-- Listing Item -->
-		<div class="fw-carousel-item">
-			<a href="listings-single-page.html" class="listing-item-container compact">
-				<div class="listing-item">
-					<img src="images/listing-item-06.jpg" alt="">
-
-					<div class="listing-badge now-closed">Now Closed</div>
-
-					<div class="listing-item-content">
-						<div class="numerical-rating" data-rating="4.5"></div>
-						<h3>Think Coffee</h3>
-						<span>215 Terry Lane, New York</span>
-					</div>
-					<span class="like-icon"></span>
-				</div>
-			</a>
-		</div>
-		<!-- Listing Item / End -->
-
-	</div>
-	<!-- Carousel / End -->
-
-
-</section>
-<!-- Fullwidth Section / End -->
 
 
 <!-- Container -->
@@ -500,16 +304,16 @@
 	<div class="row">
 
 		<div class="col-md-12">
-			<h3 class="headline centered margin-bottom-35 margin-top-70">Popular Cities <span>Browse listings in popular places</span></h3>
+			<h3 class="headline centered margin-bottom-35 margin-top-70">Popular Cities </h3>
 		</div>
 		
 		<div class="col-md-4">
 
 			<!-- Image Box -->
-			<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="images/popular-location-01.jpg">
+			<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="images/abuja.jpg">
 				<div class="img-box-content visible">
-					<h4>New York </h4>
-					<span>14 Listings</span>
+					<h4>Abuja </h4>
+					<span></span>
 				</div>
 			</a>
 
@@ -518,10 +322,10 @@
 		<div class="col-md-8">
 
 			<!-- Image Box -->
-			<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="images/popular-location-02.jpg">
+			<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="images/lagos.jpg">
 				<div class="img-box-content visible">
-					<h4>Los Angeles</h4>
-					<span>24 Listings</span>
+					<h4>Lagos</h4>
+					<span></span>
 				</div>
 			</a>
 
@@ -530,10 +334,10 @@
 		<div class="col-md-8">
 
 			<!-- Image Box -->
-			<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="images/popular-location-03.jpg">
+			<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="images/calabar.jpg">
 				<div class="img-box-content visible">
-					<h4>San Francisco </h4>
-					<span>12 Listings</span>
+					<h4>Calabar</h4>
+					<span></span>
 				</div>
 			</a>
 
@@ -542,10 +346,10 @@
 		<div class="col-md-4">
 
 			<!-- Image Box -->
-			<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="images/popular-location-04.jpg">
+			<a href="listings-list-with-sidebar.html" class="img-box" data-background-image="images/port-harcourt.jpg">
 				<div class="img-box-content visible">
-					<h4>Miami</h4>
-					<span>9 Listings</span>
+					<h4>Port-Harcourt</h4>
+					<span></span>
 				</div>
 			</a>
 
@@ -556,24 +360,71 @@
 <!-- Container / End -->
 
 
-<!-- Flip banner -->
-<a href="listings-half-screen-map-list.html" class="flip-banner parallax margin-top-65" data-background="images/slider-bg-02.jpg" data-color="#f91942" data-color-opacity="0.85" data-img-width="2500" data-img-height="1666">
-	<div class="flip-banner-content">
-		<h2 class="flip-visible">Expolore top-rated attractions nearby</h2>
-		<h2 class="flip-hidden">Browse Listings <i class="sl sl-icon-arrow-right"></i></h2>
+<section class="fullwidth border-top margin-top-40 margin-bottom-0 padding-top-60 padding-bottom-65" data-background-color="#ffffff">
+	<!-- Logo Carousel -->
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12">
+				<h3 class="headline centered margin-bottom-40 margin-top-10">Our Partners </h3>
+			</div>
+			
+			<!-- Carousel -->
+			<div class="col-md-12">
+				<div class="logo-slick-carousel dot-navigation">
+					
+					<div class="item">
+						<img src="images/logo-01.png" alt="">
+					</div>
+					
+					<div class="item">
+						<img src="images/logo-02.png" alt="">
+					</div>
+					
+					<div class="item">
+						<img src="images/logo-03.png" alt="">
+					</div>
+					
+					<div class="item">
+						<img src="images/logo-04.png" alt="">
+					</div>
+					
+					<div class="item">
+						<img src="images/logo-05.png" alt="">
+					</div>		
+
+					<div class="item">
+						<img src="images/logo-06.png" alt="">
+					</div>	
+
+					<div class="item">
+						<img src="images/logo-07.png" alt="">
+					</div>
+
+
+				</div>
+			</div>
+			<!-- Carousel / End -->
+
+		</div>
 	</div>
-</a>
-<!-- Flip banner / End -->
+	<!-- Logo Carousel / End -->
+</section>
+<!-- Fullwidth Section -->
+
+
+
+
 
 
 <!-- Footer
 ================================================== -->
-<div id="footer">
+<div id="footer" class="dark">
 	<!-- Main -->
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5 col-sm-6">
-				<img class="footer-logo" src="images/logo.png" alt="">
+				<img class="footer-logo" src="images/logo2.png" alt="">
 				<br><br>
 				<p>Morbi convallis bibendum urna ut viverra. Maecenas quis consequat libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies laoreet ullamcorper phasellus semper.</p>
 			</div>
@@ -604,7 +455,7 @@
 				<div class="text-widget">
 					<span>12345 Little Lonsdale St, Melbourne</span> <br>
 					Phone: <span>(123) 123-456 </span><br>
-					E-Mail:<span> <a href="#"><span class="__cf_email__" data-cfemail="127d74747b717752776a737f627e773c717d7f">[email&#160;protected]</span></a> </span><br>
+					E-Mail:<span> <a href="#"><span class="__cf_email__" data-cfemail="cba4adada2a8ae8baeb3aaa6bba7aee5a8a4a6">[email&#160;protected]</span></a> </span><br>
 				</div>
 
 				<ul class="social-icons margin-top-20">
@@ -658,6 +509,7 @@
 <!-- Style Switcher
 ================================================== -->
 <script src="scripts/switcher.js"></script>
+<script type="text/javascript" src="css/c.js"></script>
 
 <div id="style-switcher">
 	<h2>Color Switcher <a href="#"><i class="sl sl-icon-settings"></i></a></h2>
